@@ -1,4 +1,6 @@
 #pragma once
+#include <iostream>
+
 class Heure
 {
 protected :
@@ -10,6 +12,8 @@ public :
 	Heure(int, int, int);
 
 	bool operator>(Heure&) const;
+
+	bool operator==(Heure&) const;
 
 	void afficher() const;
 

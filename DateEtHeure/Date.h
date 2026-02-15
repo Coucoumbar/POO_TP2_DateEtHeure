@@ -1,4 +1,6 @@
 #pragma once
+#include <iostream>
+
 class Date
 {
 protected :
@@ -11,6 +13,8 @@ public :
 
 	bool operator>(Date&) const;
 
+	bool operator==(Date&) const;
+
 	void afficher() const;
 
 	int get_jour() const;
@@ -18,5 +22,7 @@ public :
 	int get_mois() const;
 
 	int get_annee() const;
+
+	std::string mois_to_string() const;
 };
 
