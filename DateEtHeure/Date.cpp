@@ -1,7 +1,12 @@
+/*
+* Fait par : Mathias Lavoie [LAVM19040400]
+* Date : 24 fevrier 2026
+*/
+
 #include "Date.h"
 
 Date::Date(int jj, int mm, int aaaa) {
-	annee = aaaa;
+	annee = (aaaa <= 9999) ? aaaa : 0;
 	mois = (mm > 0 && mm <= 12) ? mm : 1;
 
 	switch (mois)

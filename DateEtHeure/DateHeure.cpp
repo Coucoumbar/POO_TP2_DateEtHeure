@@ -1,3 +1,8 @@
+/*
+* Fait par : Mathias Lavoie [LAVM19040400]
+* Date : 24 fevrier 2026
+*/
+
 #include "DateHeure.h"
 
 DateHeure::DateHeure(int jj, int mm, int aaaa, int h, int m, int s) : Date(jj, mm, aaaa), Heure(h, m, s) {}

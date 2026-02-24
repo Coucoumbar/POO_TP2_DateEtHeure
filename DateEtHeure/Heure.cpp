@@ -1,3 +1,8 @@
+/*
+* Fait par : Mathias Lavoie [LAVM19040400]
+* Date : 24 fevrier 2026
+*/
+
 #include "Heure.h"
 #include <iostream>
 #include <iomanip>
